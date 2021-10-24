@@ -3,29 +3,42 @@ import { ContentStyle } from "./contentStyle";
 
 import AddTaskButton from "../addTaskButton/AddTaskButton";
 import Input from "../input/Input";
-
+import CardTask from "../cardTask/CardTask";
 
 export default class Content extends Component {
-
   constructor() {
     super();
 
     this.state = {
-      inputValue: '',
+      inputValue: "",
+      tasks: [],
       handleChangeInput: this.handleChangeInput,
-    }
+      addNewTask: this.addNewTask,
+    };
   }
 
   handleChangeInput = ({ target: { value } }) => this.setState({ inputValue: value });
 
+  addNewTask = () => {
+    const { inputValue, tasks } = this.state;
+
+    this.setState({ tasks: [...tasks, inputValue], inputValue: '' });
+  };
 
   render() {
-    const { inputValue } = this.state;
+    const { inputValue, tasks } = this.state;
+
     return (
       <ContentStyle>
-        <h1>Nova Tarefa: {inputValue}</h1>
+        <h1>Digite Para adicionar uma nova tarefa</h1>
+        <h2>Nova tarefa: {inputValue}</h2>
         <Input {...this.state} />
-        <AddTaskButton />
+
+        {inputValue && <AddTaskButton {...this.state} />}
+
+        {tasks.map(task => (
+          <CardTask task={task} />
+        ))}
       </ContentStyle>
     );
   }

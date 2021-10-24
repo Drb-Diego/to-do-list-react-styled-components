@@ -11,7 +11,8 @@ export const AddButton = styled.button`
   background-color: blue;
   box-shadow: 0 0 5px black;
   
-  &::hover {
+  &:hover {
+    transition: 300ms;
     background-color: black;
   }
 `;

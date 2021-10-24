@@ -10,4 +10,9 @@ export const ContentStyle = styled.section`
   padding: 10px;
   display: flex;
   flex-direction: column;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 `;

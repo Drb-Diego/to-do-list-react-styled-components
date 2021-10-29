@@ -22,7 +22,7 @@ export default class Content extends Component {
   addNewTask = () => {
     const { inputValue, tasks } = this.state;
 
-    this.setState({ tasks: [...tasks, inputValue], inputValue: '' });
+    if(inputValue !== '') this.setState({ tasks: [...tasks, inputValue], inputValue: '' });
   };
 
   render() {
@@ -30,15 +30,11 @@ export default class Content extends Component {
 
     return (
       <ContentStyle>
-        <h1>Digite Para adicionar uma nova tarefa</h1>
+        <h1>Digite para adicionar uma nova tarefa</h1>
         <h2>Nova tarefa: {inputValue}</h2>
         <Input {...this.state} />
-
-        {inputValue && <AddTaskButton {...this.state} />}
-
-        {tasks.map(task => (
-          <CardTask task={task} />
-        ))}
+        <AddTaskButton {...this.state} />
+        <CardTask tasks={tasks} />
       </ContentStyle>
     );
   }

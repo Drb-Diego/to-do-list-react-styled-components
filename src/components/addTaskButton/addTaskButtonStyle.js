@@ -12,7 +12,7 @@ export const AddButton = styled.button`
   box-shadow: 0 0 5px black;
   
   &:hover {
-    transition: 300ms;
+    transition: 500ms;
     background-color: black;
   }
 `;

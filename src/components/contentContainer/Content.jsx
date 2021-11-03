@@ -12,8 +12,7 @@ export default class Content extends Component {
     this.state = {
       inputValue: "",
       tasks: [],
-      isConclude: 'none',
-      canDelete: false, 
+      isConclude: 'none', 
       handleChangeInput: this.handleChangeInput,
       addNewTask: this.addNewTask,
       concludeTask: this.concludeTask,

@@ -6,7 +6,7 @@ import { FaCheck, FaEdit, FaTrash } from 'react-icons/fa'
 
 export default class CardTask extends Component {
   render() {
-    const { tasks, concludeTask, isConclude } = this.props;
+    const { tasks, concludeTask, isConclude, deleteTask } = this.props;
 
     return (
       <CardStyled>
@@ -17,7 +17,7 @@ export default class CardTask extends Component {
               <div>
                 <FaCheck onClick={ concludeTask } />
                 <FaEdit />
-                <FaTrash />
+                <FaTrash onClick={() => deleteTask(task) } />
               </div>
             </List>
           ))}

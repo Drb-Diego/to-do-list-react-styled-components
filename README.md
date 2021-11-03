@@ -28,7 +28,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Adicionar novas Tasks
 - [x] Ao clicar no "check" riscar a task
 - [ ] Ao clicar no "edit" poder editar a task
-- [ ] Ao clicar no "delete" poder remover a task
+- [x] Ao clicar no "delete" poder remover a task
 
 ## 💻 Pré-requisitos
 

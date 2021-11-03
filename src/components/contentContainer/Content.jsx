@@ -13,9 +13,11 @@ export default class Content extends Component {
       inputValue: "",
       tasks: [],
       isConclude: 'none',
+      canDelete: false, 
       handleChangeInput: this.handleChangeInput,
       addNewTask: this.addNewTask,
-      concludeTask: this.concludeTask
+      concludeTask: this.concludeTask,
+      deleteTask: this.deleteTask
     };
   }
 
@@ -27,7 +29,21 @@ export default class Content extends Component {
     if(inputValue !== '') this.setState({ tasks: [...tasks, inputValue], inputValue: '' });
   };
 
-  concludeTask = () => this.setState({ isConclude: 'line-through' })
+  concludeTask = () => {
+    const { isConclude } = this.state;
+
+    if (isConclude === 'none') this.setState({ isConclude: 'line-through' });
+
+    else this.setState({ isConclude: 'none' });
+  }
+
+  deleteTask = (deleteThisTask) => {
+    const { tasks } = this.state;
+
+    const newList = tasks.filter((task) => task !== deleteThisTask)
+
+    this.setState({ tasks: [...newList] })
+  }
 
   render() {
     const { inputValue } = this.state;

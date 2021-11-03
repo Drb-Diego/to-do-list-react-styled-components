@@ -31,7 +31,7 @@ export const List = styled.li`
     svg {
       &:hover {
         transition: 300ms;
-        color: green;
+        color: black;
       }
     }
 

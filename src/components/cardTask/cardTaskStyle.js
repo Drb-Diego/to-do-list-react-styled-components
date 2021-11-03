@@ -18,3 +18,16 @@ export const OrderedList = styled.ol`
     }
   }
 `;
+
+export const List = styled.li`
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    width: 4vw;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    cursor: pointer;
+  }
+`;

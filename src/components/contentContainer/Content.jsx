@@ -14,6 +14,7 @@ export default class Content extends Component {
       tasks: [],
       handleChangeInput: this.handleChangeInput,
       addNewTask: this.addNewTask,
+      concludeTask: this.concludeTask
     };
   }
 
@@ -25,8 +26,10 @@ export default class Content extends Component {
     if(inputValue !== '') this.setState({ tasks: [...tasks, inputValue], inputValue: '' });
   };
 
+  concludeTask = ({ target }) => console.log(target)
+
   render() {
-    const { inputValue, tasks } = this.state;
+    const { inputValue } = this.state;
 
     return (
       <ContentStyle>
@@ -34,7 +37,7 @@ export default class Content extends Component {
         <h2>Nova tarefa: {inputValue}</h2>
         <Input {...this.state} />
         <AddTaskButton {...this.state} />
-        <CardTask tasks={tasks} />
+        <CardTask { ... this.state } />
       </ContentStyle>
     );
   }

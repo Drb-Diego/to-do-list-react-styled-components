@@ -50,9 +50,17 @@ Depois execute os seguintes comando
 ```
   yarn
 ```
+```
+  yarn start
+```
+
 **Caso Npm:**
 ```
   npm install
+```
+
+```
+  npm start
 ```
 
 </br>
@@ -68,8 +76,14 @@ Depois execute os seguintes comando
 ```
   yarn
 ```
+```
+  yarn start
+```
 **Caso Npm:**
 ```
   npm install
+```
+```
+  npm start
 ```
 

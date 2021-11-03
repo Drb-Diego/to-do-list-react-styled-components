@@ -12,6 +12,7 @@ export default class Content extends Component {
     this.state = {
       inputValue: "",
       tasks: [],
+      isConclude: 'none',
       handleChangeInput: this.handleChangeInput,
       addNewTask: this.addNewTask,
       concludeTask: this.concludeTask
@@ -26,7 +27,7 @@ export default class Content extends Component {
     if(inputValue !== '') this.setState({ tasks: [...tasks, inputValue], inputValue: '' });
   };
 
-  concludeTask = ({ target }) => console.log(target)
+  concludeTask = () => this.setState({ isConclude: 'line-through' })
 
   render() {
     const { inputValue } = this.state;

@@ -12,22 +12,27 @@ export const OrderedList = styled.ol`
   width: 100%;
 
   li {
-    font-size: 20px;
-    &:hover {
-      color: purple;
-    }
+    font-size: 1.3rem;
   }
 `;
 
 export const List = styled.li`
   display: flex;
   justify-content: space-between;
+  text-decoration: ${ props => props.textDecoration };
 
   div {
-    width: 4vw;
+    width: 5.6vw;
     display: flex;
     justify-content: space-between;
     color: blue;
     cursor: pointer;
+
+    svg {
+      &:hover {
+        color: green;
+      }
+    }
+
   }
 `;

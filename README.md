@@ -38,7 +38,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o To-do-list, siga estas etapas:
 
-Linux e macOS:
+</br>
+
+**Linux e macOS:**
 
 **Clone o repositório**
 
@@ -53,7 +55,10 @@ Depois execute os seguintes comando
   npm install
 ```
 
-Windows:
+</br>
+
+
+**Windows:**
 
 **Clone o repositório**
 

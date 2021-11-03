@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Route exact path="/to-do-list-react-styled-components" component={ Content } />
+        <Route exact path="/" component={ Content } />
       </BrowserRouter>
     );
   }

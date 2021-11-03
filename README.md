@@ -17,7 +17,9 @@
   <img src="./imagem-do-projeto.png" alt="imagem do projeto" width="1000px" heigth="800px">
 </p>
 
-> Link da aplicação: **https://drb-diego.github.io/to-do-list-react-styled-components/**
+> Link da aplicação: <a href="https://drb-diego.github.io/to-do-list-react-styled-components/">To do list</a>
+
+
 
 ### Ajustes e melhorias
 

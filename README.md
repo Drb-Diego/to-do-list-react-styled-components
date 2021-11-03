@@ -1,8 +1,8 @@
-# To do list
+# To do list 📚
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 <h1>
-  Tecnologias
+  Tecnologias 👨‍💻
   </br>
   </br>
   <div align="center">

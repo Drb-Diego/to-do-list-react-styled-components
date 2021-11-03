@@ -44,6 +44,10 @@ Para instalar o To-do-list, siga estas etapas:
 
 **Clone o repositório**
 
+```
+  git clone https://github.com/Drb-Diego/to-do-list-react-styled-components.git
+```
+
 Depois execute os seguintes comando
 
 **Caso yarn:**
@@ -69,6 +73,10 @@ Depois execute os seguintes comando
 **Windows:**
 
 **Clone o repositório**
+
+```
+  git clone https://github.com/Drb-Diego/to-do-list-react-styled-components.git
+```
 
 Depois execute os seguintes comando
 

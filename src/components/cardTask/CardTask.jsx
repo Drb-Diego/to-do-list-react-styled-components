@@ -2,7 +2,7 @@ import { Component } from "react";
 
 import { CardStyled, OrderedList, List } from "./cardTaskStyle";
 
-import { FaCheck, FaEdit, FaTrash } from 'react-icons/fa'
+import { FaCheck, FaTrash } from 'react-icons/fa'
 
 export default class CardTask extends Component {
   render() {
@@ -16,7 +16,6 @@ export default class CardTask extends Component {
               {task}
               <div>
                 <FaCheck onClick={ concludeTask } />
-                <FaEdit />
                 <FaTrash onClick={() => deleteTask(task) } />
               </div>
             </List>

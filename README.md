@@ -20,14 +20,15 @@
 > Link da aplicação: <a href="https://drb-diego.github.io/to-do-list-react-styled-components/">To do list</a>
 
 
-
+## 🖖🏼 Objetivo
+O objetivo desse projeto é criar um app de lista de tarefas, exercitando algumas tecnologias que aprendi recentemente.
+Como por exemplo, react e styled-components.
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Adicionar novas Tasks
 - [x] Ao clicar no "check" riscar a task
-- [ ] Ao clicar no "edit" poder editar a task
 - [x] Ao clicar no "delete" poder remover a task
 
 ## 💻 Pré-requisitos

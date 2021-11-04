@@ -25,7 +25,7 @@ O objetivo desse projeto é criar um app de lista de tarefas, exercitando alguma
 Como por exemplo, react e styled-components.
 ### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+Projeto concluido ✅:
 
 - [x] Adicionar novas Tasks
 - [x] Ao clicar no "check" riscar a task

@@ -43,7 +43,7 @@ Para instalar o To-do-list, siga estas etapas:
 
 </br>
 
-**Linux e macOS:**
+**Linux, macOS e Windows :**
 
 **Clone o repositório**
 
@@ -66,34 +66,6 @@ Depois execute os seguintes comando
   npm install
 ```
 
-```
-  npm start
-```
-
-</br>
-
-
-**Windows:**
-
-**Clone o repositório**
-
-```
-  git clone https://github.com/Drb-Diego/to-do-list-react-styled-components.git
-```
-
-Depois execute os seguintes comando
-
-**Caso yarn:**
-```
-  yarn
-```
-```
-  yarn start
-```
-**Caso Npm:**
-```
-  npm install
-```
 ```
   npm start
 ```

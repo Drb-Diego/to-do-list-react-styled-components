@@ -14,7 +14,7 @@
 </h1>
 
 <p align="center">
-  <img src="./imagem-do-projeto.png" alt="imagem do projeto" width="1000px" heigth="800px">
+  <img src="./imagem-do-projeto.gif" alt="imagem do projeto" width="800px" heigth="800px">
 </p>
 
 > Link da aplicação: <a href="https://drb-diego.github.io/to-do-list-react-styled-components/">To do list</a>

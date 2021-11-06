@@ -14,9 +14,7 @@
 </h1>
 
 <p align="center">
-  <video width="1000px" heigth="800px">
-    <source src="./2021-11-05 22-39-18.mp4" />
-  </video>
+  <img src="./imagem-do-projeto.png" alt="imagem do projeto" width="1000px" heigth="800px">
 </p>
 
 > Link da aplicação: <a href="https://drb-diego.github.io/to-do-list-react-styled-components/">To do list</a>
